@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Continuous_Testing_in_DevOps_Certification_Project" duration-ms="71385" started-at="2019-12-31T16:58:36Z" finished-at="2019-12-31T16:59:47Z">
+    <groups>
+    </groups>
+    <test name="Case_1" duration-ms="23588" started-at="2019-12-31T16:58:36Z" finished-at="2019-12-31T16:58:59Z">
+      <class name="case_1.Case_1_Test">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:case_1.Case_1_Test@757942a1]" name="OpenBrowser" is-config="true" duration-ms="17613" started-at="2019-12-31T16:58:36Z" finished-at="2019-12-31T16:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:case_1.Case_1_Test@757942a1]" name="Login" duration-ms="2500" started-at="2019-12-31T16:58:55Z" data-provider="testDataFeed" finished-at="2019-12-31T16:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[haoliva@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1234567890!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:case_1.Case_1_Test@757942a1]" name="Logout" duration-ms="641" started-at="2019-12-31T16:58:58Z" depends-on-methods="case_1.Case_1_Test.Login" finished-at="2019-12-31T16:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:case_1.Case_1_Test@757942a1]" name="QuitBrowser" is-config="true" duration-ms="975" started-at="2019-12-31T16:58:58Z" finished-at="2019-12-31T16:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- case_1.Case_1_Test -->
+    </test> <!-- Case_1 -->
+    <test name="Case_2" duration-ms="17952" started-at="2019-12-31T16:59:00Z" finished-at="2019-12-31T16:59:18Z">
+      <class name="case_2.Case_2_Test">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:case_2.Case_2_Test@12c8a2c0]" name="OpenBrowser" is-config="true" duration-ms="10592" started-at="2019-12-31T16:59:00Z" finished-at="2019-12-31T16:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:case_2.Case_2_Test@12c8a2c0]" name="Login" duration-ms="2273" started-at="2019-12-31T16:59:10Z" data-provider="testDataFeed" finished-at="2019-12-31T16:59:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[haoliva@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1234567890!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="FlightDetails()[pri:0, instance:case_2.Case_2_Test@12c8a2c0]" name="FlightDetails" duration-ms="743" started-at="2019-12-31T16:59:13Z" depends-on-methods="case_2.Case_2_Test.Login" finished-at="2019-12-31T16:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightDetails -->
+        <test-method status="PASS" signature="Depart()[pri:0, instance:case_2.Case_2_Test@12c8a2c0]" name="Depart" duration-ms="96" started-at="2019-12-31T16:59:13Z" depends-on-methods="case_2.Case_2_Test.FlightDetails" finished-at="2019-12-31T16:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Depart -->
+        <test-method status="PASS" signature="Return()[pri:0, instance:case_2.Case_2_Test@12c8a2c0]" name="Return" duration-ms="616" started-at="2019-12-31T16:59:13Z" depends-on-methods="case_2.Case_2_Test.Depart" finished-at="2019-12-31T16:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return -->
+        <test-method status="PASS" signature="Purchase()[pri:0, instance:case_2.Case_2_Test@12c8a2c0]" name="Purchase" duration-ms="1333" started-at="2019-12-31T16:59:14Z" depends-on-methods="case_2.Case_2_Test.Return" finished-at="2019-12-31T16:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchase -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:case_2.Case_2_Test@12c8a2c0]" name="Logout" duration-ms="959" started-at="2019-12-31T16:59:15Z" depends-on-methods="case_2.Case_2_Test.Purchase" finished-at="2019-12-31T16:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:case_2.Case_2_Test@12c8a2c0]" name="QuitBrowser" is-config="true" duration-ms="1202" started-at="2019-12-31T16:59:16Z" finished-at="2019-12-31T16:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- case_2.Case_2_Test -->
+    </test> <!-- Case_2 -->
+    <test name="Case_3" duration-ms="15324" started-at="2019-12-31T16:59:18Z" finished-at="2019-12-31T16:59:33Z">
+      <class name="case_3.Case_3_Test">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:case_3.Case_3_Test@6ec8211c]" name="OpenBrowser" is-config="true" duration-ms="10616" started-at="2019-12-31T16:59:18Z" finished-at="2019-12-31T16:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:case_3.Case_3_Test@6ec8211c]" name="Login" duration-ms="2316" started-at="2019-12-31T16:59:28Z" data-provider="testDataFeed" finished-at="2019-12-31T16:59:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[haoliva@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1234567890!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Cruises()[pri:0, instance:case_3.Case_3_Test@6ec8211c]" name="Cruises" duration-ms="557" started-at="2019-12-31T16:59:31Z" depends-on-methods="case_3.Case_3_Test.Login" finished-at="2019-12-31T16:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cruises -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:case_3.Case_3_Test@6ec8211c]" name="Logout" duration-ms="606" started-at="2019-12-31T16:59:31Z" depends-on-methods="case_3.Case_3_Test.Cruises" finished-at="2019-12-31T16:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:case_3.Case_3_Test@6ec8211c]" name="QuitBrowser" is-config="true" duration-ms="1162" started-at="2019-12-31T16:59:32Z" finished-at="2019-12-31T16:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- case_3.Case_3_Test -->
+    </test> <!-- Case_3 -->
+    <test name="Case_4" duration-ms="14312" started-at="2019-12-31T16:59:33Z" finished-at="2019-12-31T16:59:47Z">
+      <class name="case_4.Case_4_Test">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:case_4.Case_4_Test@704d6e83]" name="OpenBrowser" is-config="true" duration-ms="10566" started-at="2019-12-31T16:59:33Z" finished-at="2019-12-31T16:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="BrokenLinks()[pri:0, instance:case_4.Case_4_Test@704d6e83]" name="BrokenLinks" duration-ms="2903" started-at="2019-12-31T16:59:44Z" finished-at="2019-12-31T16:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrokenLinks -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:case_4.Case_4_Test@704d6e83]" name="QuitBrowser" is-config="true" duration-ms="840" started-at="2019-12-31T16:59:46Z" finished-at="2019-12-31T16:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- case_4.Case_4_Test -->
+    </test> <!-- Case_4 -->
+  </suite> <!-- Continuous_Testing_in_DevOps_Certification_Project -->
+</testng-results>

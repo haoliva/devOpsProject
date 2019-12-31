@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Continuous_Testing_in_DevOps_Certification_Project">
+  <test name="Case_1">
+    <classes>
+      <class name="case_1.Case_1_Test"/>
+    </classes>
+  </test> <!-- Case_1 -->
+  <test name="Case_2">
+    <classes>
+      <class name="case_2.Case_2_Test"/>
+    </classes>
+  </test> <!-- Case_2 -->
+  <test name="Case_3">
+    <classes>
+      <class name="case_3.Case_3_Test"/>
+    </classes>
+  </test> <!-- Case_3 -->
+  <test name="Case_4">
+    <classes>
+      <class name="case_4.Case_4_Test"/>
+    </classes>
+  </test> <!-- Case_4 -->
+</suite> <!-- Certification_Project -->
